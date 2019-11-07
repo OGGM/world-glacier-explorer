@@ -1,0 +1,20 @@
+*.py[cod]
+__pycache__
+
+# PyCharm stuffs
+.idea/
+
+# OS generated files
+.DS_Store
+
+# Notebook stuffs
+examples/*checkpoints
+.ipynb_checkpoints
+*.nbgrader.log
+
+# Packages
+*.egg
+*.egg-info
+eggs
+*.eggs
+

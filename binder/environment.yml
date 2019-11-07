@@ -1,0 +1,31 @@
+name: oggm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - jupyter
+  - bokeh
+  - nbserverproxy
+  - tornado<6
+  - ipywidgets
+  - graphviz
+  - numpy
+  - scipy
+  - pandas
+  - shapely
+  - matplotlib=3.0.3
+  - Pillow
+  - pyproj
+  - cartopy
+  - geopandas
+  - pyviz_comms
+  - param
+  - holoviews
+  - hvplot
+  - geoviews
+  - panel
+  - parambokeh
+  - datashader
+  - ipympl
+  - pytables
+
