@@ -1,31 +1,13 @@
-name: oggm
-channels:
-  - conda-forge
+name: glacier-app
 dependencies:
-  - python=3.6
-  - jupyter
-  - bokeh
-  - nbserverproxy
-  - tornado<6
-  - ipywidgets
-  - graphviz
-  - numpy
-  - scipy
-  - pandas
-  - shapely
-  - matplotlib=3.0.3
-  - Pillow
-  - pyproj
-  - cartopy
-  - geopandas
-  - pyviz_comms
-  - param
-  - holoviews
-  - hvplot
-  - geoviews
-  - panel
-  - parambokeh
-  - datashader
-  - ipympl
-  - pytables
-
+  - pip
+  - pyviz::param
+  - pyviz::pyviz_comms
+  - pyviz::datashader
+  - bokeh::bokeh
+  - pyviz::holoviews
+  - pyviz::geoviews
+  - pyviz::panel=0.6.2
+  - conda-forge::pytables
+  - pip:
+    - jupyter-panel-proxy
