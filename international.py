@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 supported_languages = ['en', 'de', 'fr']
 
 trads = {
@@ -35,7 +36,7 @@ trads = {
         {
             'en': 'Volume in mm sea-level equivalent',
             'de': 'Beitrag zum Meeresspiegelanstieg in mm',
-            'de': 'Élévation du niveau de la mer en mm',
+            'fr': 'Élévation du niveau de la mer en mm',
         },
     'map_plot_x':
         {
