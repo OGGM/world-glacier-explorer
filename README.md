@@ -16,4 +16,4 @@ License: MIT
 
 ## Help us with a new translation
 
-If you want to help us to add a new translation (or correct a typo in the existing ones), please check the [international.py](international.py) and edit it - it should be self-explanatory! You can send us the edited file per mail or with a pull-request. Thanks!!!
+If you want to help us to add a new translation (or correct a typo in the existing ones), please check the [international.py](international.py) file. It should be self-explanatory! You can send us the edited file per mail or with a pull-request. Thanks!!!
