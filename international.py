@@ -129,16 +129,16 @@ trads = {
     'abbreviations':
         {
             'en': 'Abbreviations:<br>'
-                  '"asl": above sea level, total glacier volume that is above sea level.<br>'
-                  '"bsl": below sea level, total glacier volume that is below sea level in the ocean (grounded).',
+                  '"asl" (above sea level): total glacier volume that is above sea level.<br>'
+                  '"bsl" (below sea level): total glacier volume that is below sea level in the ocean (grounded).',
             'de': 'Abkürzungen:<br>'
                   '"asl" (above sea level): diese Rubrik umfasst das Gletschervolumen, das sich oberhalb des Meeresspiegels befindet. <br>'
                   '"bsl" (below sea level): diese Rubrik umfasst das Gletschervolumen, das sich unterhalb des Meerespiegels befindet, also bis auf den Meeresboden reicht.',
             'fr': 'Abbréviations:<br>'
-                  '"asl": above sea level, volume total de glace se trouvant au dessus du niveau de la mer.<br>'
-                  '"bsl": below sea level, volume total de glace se trouvant en dessous du niveau de la mer.',
-            'cn': '"asl": above sea level, 海平面以上，海平面以上的冰川总体积。<br>'
-                  '"bsl": below sea level, 海平面以下，海洋中海平面以下的冰川总体积。',
+                  '"asl" (above sea level): volume total de glace se trouvant au dessus du niveau de la mer.<br>'
+                  '"bsl" (below sea level): volume total de glace se trouvant en dessous du niveau de la mer.',
+            'cn': '"asl" (above sea level): 海平面以上，海平面以上的冰川总体积。<br>'
+                  '"bsl" (below sea level): 海平面以下，海洋中海平面以下的冰川总体积。',
         },
 
 }
