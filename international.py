@@ -96,7 +96,7 @@ trads = {
             'de': 'Jährlicher Niederschlag (mm/Jahr)',
             'fr': 'Précipitations annuelles (mm/an)',
             'cn': '年降水量（mm/年）',
-            'es': 'Precipitación annual (mm/an)'
+            'es': 'Precipitación anual (mm/an)'
         },
     'elev_plot_x':
         {
@@ -104,7 +104,7 @@ trads = {
             'de': 'Mittlere Höhe des Gletschers (m ü.M.)',
             'fr': 'Altitude moyenne du glacier (m)',
             'cn': '冰川平均海拔（m a.s.l.）',
-            'es': 'Elevación media Glaciar (m s.n.m.)'
+            'es': 'Elevación media del Glaciar (m s.n.m.)'
         },
     'elev_plot_y':
         {
@@ -139,7 +139,7 @@ trads = {
 		          '<br><b>单击左侧“清空选区”按钮以清空您选择的区域</b>.<br>关于本'
 		          'app及其所用数据的更多信息，请访问'
                   '<a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>',
-            'es': 'Escoge tu región de interes haciendo click y arrastrando '
+            'es': 'Escoge tu región de interés haciendo click y arrastrando '
                   'el mouse sobre el mapa o sobre las otras figuras. '
                   '<br><b> Reínicia tu selección con la opción "Anular '
                   'la selección" ubicada en el botón de la izquierda </b>.<br> Para más '
