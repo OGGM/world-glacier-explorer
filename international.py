@@ -60,7 +60,7 @@ trads = {
             'de': 'Beitrag zum Meeresspiegelanstieg in mm',
             'fr': 'Élévation du niveau de la mer en mm',
             'cn': '冰川体积对应海平面上升高度（mm）',
-            'es': 'Volumen en mm del nivel medio del mar a escala mundial',
+            'es': 'Volumen en mm del nivel medio del mar',
             'fa': 'حجمی معادل از سطح دریا (میلی متر)',
         },
     'map_plot_x':
@@ -185,7 +185,7 @@ trads = {
                   '"bsl" (below sea level): volume total de glace se trouvant en dessous du niveau de la mer.',
             'cn': '"asl" (above sea level): 海平面以上，海平面以上的冰川总体积。<br>'
                   '"bsl" (below sea level): 海平面以下，海洋中海平面以下的冰川总体积。',
-            'es': '"asl" (above sea level): volumen total del glaciar ubicado sobre el nivel del mar. <br>'
+            'es': '"asl" (above sea level): volumen total del glaciar ubicado sobre el nivel del mar.<br>'
                   '"bsl" (below sea level): volumen total del glaciar ubicado por debajo del nivel del mar.',
             'fa': '"asl" (above sea level):حجم کل یخچال های بالاتر از سطح دریا <br>'
                   '"bsl" (below sea level):حجم کل یخچال های پایین تر از سطح دریا/اقیانوس ها',
