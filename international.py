@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-supported_languages = ['en', 'de', 'fr', 'cn', 'fa']
+supported_languages = ['en', 'de', 'fr', 'es', 'cn', 'fa']
+
 
 trads = {
     'lang_display': {
@@ -14,6 +15,7 @@ trads = {
             'de': 'Auswahl aufheben',
             'fr': 'Annuler la sélection',
             'cn': '清空选区',
+            'es': 'Anular la selección',
             'fa': 'پاک کردن انتخاب',
         },
     'bar_glaciers_selected':
@@ -22,6 +24,7 @@ trads = {
             'de': 'Ausgewählte Gletscher: {} von {}',
             'fr': 'Glaciers sélectionnés: {} de {}',
             'cn': '已选择冰川：\n {}条，共计：{}条',
+            'es': 'Glaciares selecionados',
             'fa': '{} یخچال های طبیعی انتخاب شده : {} از',
         },
     'bar_area':
@@ -30,6 +33,7 @@ trads = {
             'de': 'Fläche',
             'fr': 'Surface',
             'cn': '面积',
+            'es': 'Área',
             'fa': 'مساحت',
         },
     'bar_volume':
@@ -38,6 +42,7 @@ trads = {
             'de': 'Volumen',
             'fr': 'Volume',
             'cn': '体积',
+            'es': 'Volumen',
             'fa': 'حجم',
         },
     'bar_sealevel_text':
@@ -46,6 +51,7 @@ trads = {
             'de': 'Beitrag zum Meeresspiegelanstieg:<br>',
             'fr': "Élévation du niveau de la mer:<br>",
             'cn': '对应海平面上升高度: ',
+            'es': 'Nivel del mar equivalente',
             'fa': 'معادل از سطح دریا',
         },
     'bar_sealevel_y':
@@ -54,6 +60,7 @@ trads = {
             'de': 'Beitrag zum Meeresspiegelanstieg in mm',
             'fr': 'Élévation du niveau de la mer en mm',
             'cn': '冰川体积对应海平面上升高度（mm）',
+            'es': 'Volumen en mm del nivel medio del mar a escala mundial',
             'fa': 'حجمی معادل از سطح دریا (میلی متر)',
         },
     'map_plot_x':
@@ -62,6 +69,7 @@ trads = {
             'de': 'Geographische Länge',
             'fr': 'Longitude',
             'cn': '经度',
+            'es': 'Longitud',
             'fa': 'طول جغرافیایی',
         },
     'map_plot_y':
@@ -70,6 +78,7 @@ trads = {
             'de': 'Geographische Breite',
             'fr': 'Latitude',
             'cn': '纬度',
+            'es': 'Latitud',
             'fa': 'عرض جغرافیایی',
         },
     'temp_plot_x':
@@ -78,6 +87,7 @@ trads = {
             'de': 'Jahresdurchschnittstemperatur in mittlerer Höhe (°C)',
             'fr': "Temperature annuelle à l'altitude moyenne (°C)",
             'cn': '冰川平均高程处的年平均气温（°C）',
+            'es': 'Temperatura anual á altura promedio (°C)',
             'fa': ' میانگین دمای سالانه بر حسب ارتفاع (سانتیگراد)',
         },
     'trend_plot_x':
@@ -86,6 +96,7 @@ trads = {
             'de': 'Temperaturtrend 1979-2018 (°C/Dekade)',
             'fr': 'Tendance de température 1979-2018 (°C/décade)',
             'cn': '1979-2018年气温变化率（°C/10年）',
+            'es': 'Tendencia de la temperatura 1979-2018 (°C/década)',
             'fa': 'روند تغییرات دما(سانتیگراد، دوره ده ساله)ا ۱۹۷۹-۲۰۱۸',
         },
     'trend_plot_y':
@@ -94,6 +105,7 @@ trads = {
             'de': 'Gletscher Anzahl',
             'fr': 'Nombre de glaciers',
             'cn': '冰川数目',
+            'es': 'Número de glaciares',
             'fa': 'تعداد یخچال های طبیعی',
         },
     'precip_plot_x':
@@ -102,6 +114,7 @@ trads = {
             'de': 'Jährlicher Niederschlag (mm/Jahr)',
             'fr': 'Précipitations annuelles (mm/an)',
             'cn': '年降水量（mm/年）',
+            'es': 'Precipitación anual (mm/an)',
             'fa': 'بارندگی سالانه (میلی متر در سال)',
         },
     'elev_plot_x':
@@ -110,6 +123,7 @@ trads = {
             'de': 'Mittlere Höhe des Gletschers (m ü.M.)',
             'fr': 'Altitude moyenne du glacier (m)',
             'cn': '冰川平均海拔（m a.s.l.）',
+            'es': 'Elevación media del Glaciar (m s.n.m.)',
             'fa': 'میانگین ارتفاع یخچال (متر)',
         },
     'elev_plot_y':
@@ -118,6 +132,7 @@ trads = {
             'de': 'Geographische Breite',
             'fr': 'Latitude',
             'cn': '纬度',
+            'es': 'Latitud',
             'fa': 'عرض جغرافیایی',
         },
     'instructions':
@@ -145,6 +160,13 @@ trads = {
                   '<br><b>单击左侧“清空选区”按钮以清空您选择的区域</b>.<br>关于本'
                   'app及其所用数据的更多信息，请访问'
                   '<a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>',
+            'es': 'Escoge tu región de interés haciendo click y arrastrando '
+                  'el mouse sobre el mapa o sobre las otras figuras. '
+                  '<br><b> Reínicia tu selección con la opción "Anular '
+                  'la selección" ubicada en el botón de la izquierda</b>.<br> Para más '
+                  'información sobre la aplicación y nuestra base de datos, '
+                  'visita '
+                  '<a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>',
             'fa': 'منطقه مورد علاقه خود را با کلید کردن روی نقشه یا نمودارها های دیگرانتخاب کنید '
                   '.<br><b>با کلید سمت چپ (پاک کردن انتخاب) می توانید آن را پاک کنید </b>.<br> '
                   '<a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>'
@@ -163,6 +185,8 @@ trads = {
                   '"bsl" (below sea level): volume total de glace se trouvant en dessous du niveau de la mer.',
             'cn': '"asl" (above sea level): 海平面以上，海平面以上的冰川总体积。<br>'
                   '"bsl" (below sea level): 海平面以下，海洋中海平面以下的冰川总体积。',
+            'es': '"asl" (above sea level): volumen total del glaciar ubicado sobre el nivel del mar. <br>'
+                  '"bsl" (below sea level): volumen total del glaciar ubicado por debajo del nivel del mar.',
             'fa': '"asl" (above sea level):حجم کل یخچال های بالاتر از سطح دریا <br>'
                   '"bsl" (below sea level):حجم کل یخچال های پایین تر از سطح دریا/اقیانوس ها',
         },
