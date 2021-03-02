@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
-supported_languages = ['en', 'de', 'fr', 'cn', 'فارسی']
+supported_languages = ['en', 'de', 'fr', 'cn', 'fa']
 
 trads = {
+    'lang_display': {
+        # unicode languages cannot be used as selector
+        # we still want to diplay them correctly
+        'fa' : 'فارسی',
+        'cn' : '汉语',
+    },
     'clear_button':
         {
             'en': 'Clear selection',
@@ -136,8 +142,8 @@ trads = {
                   'visite <a href="http://edu.oggm.org/en/latest/explorer.html">'
                   'edu.oggm.org</a>.',
             'cn': '在任意图表中点击鼠标左键并拖拽以选择您感兴趣的区域或范围。'
-		          '<br><b>单击左侧“清空选区”按钮以清空您选择的区域</b>.<br>关于本'
-		          'app及其所用数据的更多信息，请访问'
+                  '<br><b>单击左侧“清空选区”按钮以清空您选择的区域</b>.<br>关于本'
+                  'app及其所用数据的更多信息，请访问'
                   '<a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>',
             'fa': 'منطقه مورد علاقه خود را با کلید کردن روی نقشه یا نمودارها های دیگرانتخاب کنید '
                   '.<br><b>با کلید سمت چپ (پاک کردن انتخاب) می توانید آن را پاک کنید </b>.<br> '
@@ -157,8 +163,8 @@ trads = {
                   '"bsl" (below sea level): volume total de glace se trouvant en dessous du niveau de la mer.',
             'cn': '"asl" (above sea level): 海平面以上，海平面以上的冰川总体积。<br>'
                   '"bsl" (below sea level): 海平面以下，海洋中海平面以下的冰川总体积。',
-            'fa': 'asl" (above sea level):حجم کل یخچال های بالاتر از سطح دریا',
-            'fa': '"bsl" (below sea level):حجم کل یخچال های پایین تر از سطح دریا/اقیانوس ها',
+            'fa': '"asl" (above sea level):حجم کل یخچال های بالاتر از سطح دریا <br>'
+                  '"bsl" (below sea level):حجم کل یخچال های پایین تر از سطح دریا/اقیانوس ها',
         },
 
 }
