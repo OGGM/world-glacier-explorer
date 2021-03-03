@@ -7,7 +7,7 @@ dependencies:
   - param
   - pyviz_comms
   - datashader
-  - bokeh
+  - bokeh=2.2.3
   - holoviews
   - geoviews
   - panel
