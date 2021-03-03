@@ -88,7 +88,7 @@ trads = {
             'fr': "Temperature annuelle à l'altitude moyenne (°C)",
             'cn': '冰川平均高程处的年平均气温（°C）',
             'es': 'Temperatura anual á altura promedio (°C)',
-            'fa': '(میانگین دمای سالانه نسبت به ارتفاع سانتیگراد (سانتیگراد',
+            'fa': '(میانگین دمای سالانه نسبت به ارتفاع (سانتیگراد',
         },
     'trend_plot_x':
         {
