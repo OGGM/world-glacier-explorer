@@ -61,7 +61,7 @@ trads = {
             'fr': 'Élévation du niveau de la mer en mm',
             'cn': '冰川体积对应海平面上升高度（mm）',
             'es': 'Volumen en mm del nivel medio del mar',
-            'fa': 'حجمی معادل از سطح دریا (میلی متر)',
+            'fa': '(حجمی معادل از سطح دریا (میلی متر',
         },
     'map_plot_x':
         {
@@ -88,7 +88,7 @@ trads = {
             'fr': "Temperature annuelle à l'altitude moyenne (°C)",
             'cn': '冰川平均高程处的年平均气温（°C）',
             'es': 'Temperatura anual á altura promedio (°C)',
-            'fa': ' میانگین دمای سالانه بر حسب ارتفاع (سانتیگراد)',
+            'fa': '(میانگین دمای سالانه نسبت به ارتفاع (سانتیگراد',
         },
     'trend_plot_x':
         {
@@ -97,7 +97,7 @@ trads = {
             'fr': 'Tendance de température 1979-2018 (°C/décade)',
             'cn': '1979-2018年气温变化率（°C/10年）',
             'es': 'Tendencia de la temperatura 1979-2018 (°C/década)',
-            'fa': 'روند تغییرات دما(سانتیگراد، دوره ده ساله)ا ۱۹۷۹-۲۰۱۸',
+            'fa': 'روند تغییرات دما(سانتیگراد، دوره ده ساله) ۱۹۷۹-۲۰۱۸',
         },
     'trend_plot_y':
         {
@@ -115,7 +115,7 @@ trads = {
             'fr': 'Précipitations annuelles (mm/an)',
             'cn': '年降水量（mm/年）',
             'es': 'Precipitación anual (mm/an)',
-            'fa': 'بارندگی سالانه (میلی متر در سال)',
+            'fa': '(بارندگی سالانه (میلی متر در سال',
         },
     'elev_plot_x':
         {
@@ -124,7 +124,7 @@ trads = {
             'fr': 'Altitude moyenne du glacier (m)',
             'cn': '冰川平均海拔（m a.s.l.）',
             'es': 'Elevación media del Glaciar (m s.n.m.)',
-            'fa': 'میانگین ارتفاع یخچال (متر)',
+            'fa': '(میانگین ارتفاع یخچال (متر',
         },
     'elev_plot_y':
         {
