@@ -210,8 +210,8 @@ trads = {
             'fa': '"asl" (above sea level):حجم کل یخچال های بالاتر از سطح دریا <br>'
                   '"bsl" (below sea level):حجم کل یخچال های پایین تر از سطح دریا/اقیانوس ها',
             'it': 'Abbreviazioni:<br>'
-                  '"asl" (sopra il livello del mare): volume totale del ghiacciaio che si trova sopra il livello del mare.<br>'
-                  '"bsl" (sotto il livello del mare): volume totale del ghiacciaio che si trova sotto il livello del mare (incagliato).'
+                  '"asl" (above sea level): volume totale del ghiacciaio che si trova sopra il livello del mare.<br>'
+                  '"bsl" (below sea level): volume totale del ghiacciaio che si trova sotto il livello del mare (incagliato).'
         },
 
 }
