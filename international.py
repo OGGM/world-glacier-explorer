@@ -67,7 +67,7 @@ trads = {
             'cn': '冰川体积对应海平面上升高度（mm）',
             'es': 'Volumen en mm del nivel medio del mar',
             'fa': '(حجمی معادل از سطح دریا (میلی متر',
-            'it': 'Innalzamento del livello del mare in mm:<br>'
+            'it': 'Innalzamento del livello del mare in mm'
         },
     'map_plot_x':
         {
@@ -97,7 +97,7 @@ trads = {
             'cn': '冰川平均高程处的年平均气温（°C）',
             'es': 'Temperatura anual á altura promedio (°C)',
             'fa': '(میانگین دمای سالانه نسبت به ارتفاع (سانتیگراد',
-            'it': "Temperatura media annua a l'altezza media (°C)"
+            'it': "Temperatura media annua all'altitudine media (°C)"
         },
     'trend_plot_x':
         {
@@ -137,7 +137,7 @@ trads = {
             'cn': '冰川平均海拔（m a.s.l.）',
             'es': 'Elevación media del Glaciar (m s.n.m.)',
             'fa': '(میانگین ارتفاع یخچال (متر',
-            'it': 'Altezza media del ghacciaio (s.l.m.)'
+            'it': 'Altitudine media del ghiacciaio (s.l.m.)'
         },
     'elev_plot_y':
         {
