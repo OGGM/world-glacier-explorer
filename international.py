@@ -177,7 +177,7 @@ trads = {
             'es': 'Escoge tu región de interés haciendo click y arrastrando '
                   'el mouse sobre el mapa o sobre las otras figuras. '
                   '<br><b> Reínicia tu selección con la opción "Anular '
-                  'la selección" ubicada en el botón de la izquierda</b>.<br> Para más '
+                  'la selección" ubicada en el botón de la izquierda</b>. Para más '
                   'información sobre la aplicación y nuestra base de datos, '
                   'visita '
                   '<a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>',
@@ -188,7 +188,7 @@ trads = {
             'it': 'Scegli la tua regione di interesse cliccando e trascinando '
                   'il mouse nella mappa o nelle altre figure.<br><b>Ripristina '
                   'la tua selezione con il pulsante "Cancella selezione" sulla '
-                  "sinistra</b>.<br>Per maggiori informazioni sull'app e sulle nostre "
+                  "sinistra</b>. Per maggiori informazioni sull'app e sulle nostre "
                   'fonti di dati, visita <a href="http://edu.oggm.org/en/latest/'
                   'explorer.html">edu.oggm.org</a>'
         },
