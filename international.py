@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-supported_languages = ['en', 'de', 'fr', 'es', 'cn', 'fa']
+supported_languages = ['en', 'de', 'fr', 'es', 'cn', 'fa', 'it']
 
 
 trads = {
@@ -17,6 +17,7 @@ trads = {
             'cn': '清空选区',
             'es': 'Anular la selección',
             'fa': 'پاک کردن انتخاب',
+            'it': 'Cancella la selezione'
         },
     'bar_glaciers_selected':
         {
@@ -26,6 +27,7 @@ trads = {
             'cn': '已选择冰川：\n {}条，共计：{}条',
             'es': 'Glaciares selecionados',
             'fa': '{} یخچال های طبیعی انتخاب شده : {} از',
+            'it': 'Ghiacciai selezionati: {} di {}'
         },
     'bar_area':
         {
@@ -35,6 +37,7 @@ trads = {
             'cn': '面积',
             'es': 'Área',
             'fa': 'مساحت',
+            'it': 'Area'
         },
     'bar_volume':
         {
@@ -44,6 +47,7 @@ trads = {
             'cn': '体积',
             'es': 'Volumen',
             'fa': 'حجم',
+            'it': 'Volume'
         },
     'bar_sealevel_text':
         {
@@ -53,6 +57,7 @@ trads = {
             'cn': '对应海平面上升高度: ',
             'es': 'Nivel del mar equivalente',
             'fa': 'معادل از سطح دریا',
+            'it': 'Innalzamento del livello del mare:<br>'
         },
     'bar_sealevel_y':
         {
@@ -62,6 +67,7 @@ trads = {
             'cn': '冰川体积对应海平面上升高度（mm）',
             'es': 'Volumen en mm del nivel medio del mar',
             'fa': '(حجمی معادل از سطح دریا (میلی متر',
+            'it': 'Innalzamento del livello del mare in mm'
         },
     'map_plot_x':
         {
@@ -71,6 +77,7 @@ trads = {
             'cn': '经度',
             'es': 'Longitud',
             'fa': 'طول جغرافیایی',
+            'it': 'Longitudine'
         },
     'map_plot_y':
         {
@@ -80,6 +87,7 @@ trads = {
             'cn': '纬度',
             'es': 'Latitud',
             'fa': 'عرض جغرافیایی',
+            'it': 'Latitudine'
         },
     'temp_plot_x':
         {
@@ -89,6 +97,7 @@ trads = {
             'cn': '冰川平均高程处的年平均气温（°C）',
             'es': 'Temperatura anual á altura promedio (°C)',
             'fa': '(میانگین دمای سالانه نسبت به ارتفاع (سانتیگراد',
+            'it': "Temperatura media annua all'altitudine media (°C)"
         },
     'trend_plot_x':
         {
@@ -98,6 +107,7 @@ trads = {
             'cn': '1979-2018年气温变化率（°C/10年）',
             'es': 'Tendencia de la temperatura 1979-2018 (°C/década)',
             'fa': 'روند تغییرات دما(سانتیگراد، دوره ده ساله) ۱۹۷۹-۲۰۱۸',
+            'it': 'Tendenza della temperatura 1979-2018 (°C/decade)'
         },
     'trend_plot_y':
         {
@@ -107,6 +117,7 @@ trads = {
             'cn': '冰川数目',
             'es': 'Número de glaciares',
             'fa': 'تعداد یخچال های طبیعی',
+            'it': 'Numero di ghiacciai'
         },
     'precip_plot_x':
         {
@@ -116,6 +127,7 @@ trads = {
             'cn': '年降水量（mm/年）',
             'es': 'Precipitación anual (mm/an)',
             'fa': '(بارندگی سالانه (میلی متر در سال',
+            'it': 'Precipitazione annua (mm/anno)'
         },
     'elev_plot_x':
         {
@@ -125,6 +137,7 @@ trads = {
             'cn': '冰川平均海拔（m a.s.l.）',
             'es': 'Elevación media del Glaciar (m s.n.m.)',
             'fa': '(میانگین ارتفاع یخچال (متر',
+            'it': 'Altitudine media del ghiacciaio (s.l.m.)'
         },
     'elev_plot_y':
         {
@@ -134,6 +147,7 @@ trads = {
             'cn': '纬度',
             'es': 'Latitud',
             'fa': 'عرض جغرافیایی',
+            'it': 'Latitudine'
         },
     'instructions':
         {
@@ -171,6 +185,12 @@ trads = {
                   '.<br><b>با کلید سمت چپ (پاک کردن انتخاب) می توانید آن را پاک کنید </b>.<br> '
                   '<a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>'
                   'برای اطلاعات بیشتر در مورد اپلیکیشن و منبع داده ها اینجا رو نگاه کنید ',
+            'it': 'Scegli la tua regione di interesse cliccando e trascinando '
+                  'il mouse nella mappa o nelle altre figure.<br><b>Ripristina '
+                  'la tua selezione con il pulsante "Cancella selezione" sulla '
+                  "sinistra</b>.<br>Per maggiori informazioni sull'app e sulle nostre "
+                  'fonti di dati, visita <a href="http://edu.oggm.org/en/latest/'
+                  'explorer.html">edu.oggm.org</a>'
         },
     'abbreviations':
         {
@@ -189,6 +209,9 @@ trads = {
                   '"bsl" (below sea level): volumen total del glaciar ubicado por debajo del nivel del mar.',
             'fa': '"asl" (above sea level):حجم کل یخچال های بالاتر از سطح دریا <br>'
                   '"bsl" (below sea level):حجم کل یخچال های پایین تر از سطح دریا/اقیانوس ها',
+            'it': 'Abbreviazioni:<br>'
+                  '"asl" (above sea level): volume totale del ghiacciaio che si trova sopra il livello del mare.<br>'
+                  '"bsl" (below sea level): volume totale del ghiacciaio che si trova sotto il livello del mare (incagliato).'
         },
 
 }
