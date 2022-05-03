@@ -62,7 +62,7 @@ trads = {
             'es': 'Nivel del mar equivalente',
             'fa': 'معادل از سطح دریا',
             'it': 'Innalzamento del livello del mare:<br>',
-            'nl': 'Potentiële bijdrage aan de zeespiegelstijging:<br>'
+            'nl': 'Potentiële bijdrage aan de zeespiegelstijging: <br>'
         },
     'bar_sealevel_y':
         {
@@ -106,7 +106,7 @@ trads = {
             'es': 'Temperatura anual á altura promedio (°C)',
             'fa': '(میانگین دمای سالانه نسبت به ارتفاع (سانتیگراد',
             'it': "Temperatura media annua all'altitudine media (°C)",
-            'nl': 'Gemiddelde jaartemperatuur op de gemiddelde hoogte (°C)'
+            'nl': 'Gemiddelde jaartemperatuur <br> op de gemiddelde hoogte (°C)'
         },
     'trend_plot_x':
         {
@@ -150,7 +150,7 @@ trads = {
             'es': 'Elevación media del Glaciar (m s.n.m.)',
             'fa': '(میانگین ارتفاع یخچال (متر',
             'it': 'Altitudine media del ghiacciaio (s.l.m.)',
-            'nl': 'Gemiddelde hoogte van de gletsjer (m boven zeeniveau)'
+            'nl': 'Gemiddelde hoogte van de gletsjer <br> (m boven zeeniveau)'
         },
     'elev_plot_y':
         {
@@ -206,7 +206,7 @@ trads = {
                   'fonti di dati, visita <a href="http://edu.oggm.org/en/latest/'
                   'explorer.html">edu.oggm.org</a>',
             'nl': 'Maak een selectie op de kaart of in een van de andere figuren '
-            	   'door te klikken en te slepen met de muis, .<br><b>Wis '
+            	   'door te klikken en te slepen met de muis. <b>Wis '
                   'de selectie met de "Verwijder selectie" knop aan de '
                   'linkerkant</b>.<br>Voor meer informatie over de app en onze '
                   'databronnen, ga naar <a href="http://edu.oggm.org/en/latest/'
