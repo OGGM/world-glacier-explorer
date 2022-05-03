@@ -3,11 +3,11 @@ channels:
   - conda-forge
 dependencies:
   - pip
-  - python=3.8
+  - python=3.9
   - param
   - pyviz_comms
   - datashader
-  - bokeh=2.2.3
+  - bokeh
   - holoviews
   - geoviews
   - panel
