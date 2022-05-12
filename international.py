@@ -26,7 +26,7 @@ trads = {
             'de': 'Ausgewählte Gletscher: {} von {}',
             'fr': 'Glaciers sélectionnés: {} de {}',
             'cn': '已选择冰川：\n {}条，共计：{}条',
-            'es': 'Glaciares selecionados',
+            'es': 'Glaciares selecionados: {} de {}',
             'fa': '{} یخچال های طبیعی انتخاب شده : {} از',
             'it': 'Ghiacciai selezionati: {} di {}',
             'nl': 'Geselecteerde gletsjers: {} van {}'
