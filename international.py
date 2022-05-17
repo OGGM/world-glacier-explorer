@@ -104,7 +104,7 @@ trads = {
             'fa': 'عرض جغرافیایی',
             'it': 'Latitudine',
             'nl': 'Breedtegraad',
-            'ur': 'طول',
+            'ur': 'عرض البلد',
         },
     'temp_plot_x':
         {
