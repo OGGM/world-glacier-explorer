@@ -3,6 +3,12 @@ supported_languages = ['en', 'de', 'fr', 'es', 'cn', 'fa', 'it', 'nl', 'ur']
 
 
 trads = {
+    'is_rtl': {
+        # unicode languages cannot be used as selector
+        # we still want to diplay them correctly
+        'fa' : True,
+        'ur' : True,
+    },
     'lang_display': {
         # unicode languages cannot be used as selector
         # we still want to diplay them correctly
@@ -61,12 +67,12 @@ trads = {
     'bar_sealevel_text':
         {
             'en': 'Sea-level equivalent: ',
-            'de': 'Beitrag zum Meeresspiegelanstieg:<br>',
-            'fr': "Élévation du niveau de la mer:<br>",
+            'de': 'Beitrag zum Meeresspiegelanstieg: <br>',
+            'fr': "Élévation du niveau de la mer: <br>",
             'cn': '对应海平面上升高度: ',
-            'es': 'Nivel del mar equivalente',
-            'fa': 'معادل از سطح دریا',
-            'it': 'Innalzamento del livello del mare:<br>',
+            'es': 'Nivel del mar equivalente: ',
+            'fa': ' :معادل از سطح دریا',
+            'it': 'Innalzamento del livello del mare: <br>',
             'nl': 'Potentiële bijdrage aan de zeespiegelstijging: <br>',
             'ur': ' :سطح سمندر کے مساوی',
         },
@@ -227,10 +233,9 @@ trads = {
                   'databronnen, ga naar <a href="http://edu.oggm.org/en/latest/'
                   'explorer.html">edu.oggm.org</a>',
             'ur': 'نقشے میں یا دیگرتصویروں  میں ماؤس کو کلک اور ڈریگ کرکے اپنی دلچسپی کا علاقہ منتخب کریں۔ <br><b>'
-                    'بائیں جانب موجود "انتخاب کو مٹا دیں" بٹن کے ساتھ اپنے انتخاب کو  دوبارہ ترتیب دیں </b>۔<br>'
-                     'ایپ کے بارے میں مزید معلومات اور ہمارے ڈیٹا ذرائع کے لیے، ملاحظہ کریں' 
-                    '<a href="http://edu.oggm.org/en/latest/'
-                  'explorer.html">edu.oggm.org</a>',
+                  'بائیں جانب موجود "انتخاب کو مٹا دیں" بٹن کے ساتھ اپنے انتخاب کو  دوبارہ ترتیب دیں </b>'
+                  'ایپ کے بارے میں مزید معلومات اور ہمارے ڈیٹا ذرائع کے لیے، ملاحظہ کریں' 
+                  '<br><a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>',
         },
     'abbreviations':
         {
