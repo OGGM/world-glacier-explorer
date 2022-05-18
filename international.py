@@ -176,7 +176,7 @@ trads = {
             'fa': 'عرض جغرافیایی',
             'it': 'Latitudine',
             'nl': 'Breedtegraad',
-            'ur': 'طول',
+            'ur': 'عرض البلد',
         },
     'instructions':
         {
