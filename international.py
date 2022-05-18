@@ -243,8 +243,9 @@ trads = {
             'fr': 'Abbréviations:<br>'
                   '"asl" (above sea level): volume total de glace se trouvant au dessus du niveau de la mer.<br>'
                   '"bsl" (below sea level): volume total de glace se trouvant en dessous du niveau de la mer.',
-            'cn': '"asl" (above sea level): 海平面以上，海平面以上的冰川总体积。<br>'
-                  '"bsl" (below sea level): 海平面以下，海洋中海平面以下的冰川总体积。',
+            'cn': '缩写:<br>'
+                  '"asl" (above sea level): 海平面以上的冰川总体积。<br>'
+                  '"bsl" (below sea level): 海洋中海平面以下(接地)的冰川总体积。',
             'es': '"asl" (above sea level): volumen total del glaciar ubicado sobre el nivel del mar.<br>'
                   '"bsl" (below sea level): volumen total del glaciar ubicado por debajo del nivel del mar.',
             'fa': '"asl" (above sea level):حجم کل یخچال های بالاتر از سطح دریا <br>'
