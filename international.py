@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-supported_languages = ['en', 'de', 'fr', 'es', 'cn', 'fa', 'it', 'nl']
+supported_languages = ['en', 'de', 'fr', 'es', 'cn', 'fa', 'it', 'nl', 'ur']
 
 
 trads = {
@@ -127,7 +127,7 @@ trads = {
             'es': 'Tendencia de la temperatura 1979-2018 (°C/década)',
             'fa': 'روند تغییرات دما(سانتیگراد، دوره ده ساله) ۱۹۷۹-۲۰۱۸',
             'it': 'Tendenza della temperatura 1979-2018 (°C/decade)',
-            'nl': 'Temperatuurtrend 1979-2018 (°C/decennium)'
+            'nl': 'Temperatuurtrend 1979-2018 (°C/decennium)',
             'ur': 'درجہ حرارت کا رجحان ١٩٧٩ تا ٢٠١٨ (ڈگری سنٹی گریڈ فی دہائی)',
         },
     'trend_plot_y':
@@ -140,7 +140,7 @@ trads = {
             'fa': 'تعداد یخچال های طبیعی',
             'it': 'Numero di ghiacciai',
             'nl': 'Aantal gletsjers',
-            'ur': 'گلیشیئرز کی تعداد'
+            'ur': 'گلیشیئرز کی تعداد',
         },
     'precip_plot_x':
         {
@@ -152,7 +152,7 @@ trads = {
             'fa': '(بارندگی سالانه (میلی متر در سال',
             'it': 'Precipitazione annua (mm/anno)',
             'nl': 'Jaarlijkse neerslag (mm/jaar)',
-            'ur': 'سالانہ بارش (ملی میٹر فی سال)'
+            'ur': 'سالانہ بارش (ملی میٹر فی سال)',
         },
     'elev_plot_x':
         {
@@ -221,7 +221,7 @@ trads = {
                   'fonti di dati, visita <a href="http://edu.oggm.org/en/latest/'
                   'explorer.html">edu.oggm.org</a>',
             'nl': 'Maak een selectie op de kaart of in een van de andere figuren '
-            	   'door te klikken en te slepen met de muis. <b>Wis '
+                  'door te klikken en te slepen met de muis. <b>Wis '
                   'de selectie met de "Verwijder selectie" knop aan de '
                   'linkerkant</b>.<br>Voor meer informatie over de app en onze '
                   'databronnen, ga naar <a href="http://edu.oggm.org/en/latest/'
