@@ -98,7 +98,7 @@ trads = {
             'nl': 'Potentiële bijdrage aan de zeespiegelstijging in mm',
             'ur': 'حجم (سطح سمندر کے مساوی ملی میٹر)',
             'sv': 'Potentiellt bidrag till havsnivåhöjning i mm',
-            'ca': 'Volum en mm d\'increment del nivell del mar',
+            'ca': 'Volum d\'increment del nivell del mar en mm',
         },
     'map_plot_x':
         {
