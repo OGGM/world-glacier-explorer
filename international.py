@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-supported_languages = ['en', 'de', 'fr', 'es', 'cn', 'fa', 'it', 'nl', 'ur', 'sv', 'ca']
+supported_languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'sv', 'ca', 'cn', 'fa', 'ur']
 
 
 trads = {
