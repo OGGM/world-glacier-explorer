@@ -28,7 +28,7 @@ trads = {
             'nl': 'Verwijder selectie',
             'ur': 'انتخاب کو مٹا دیں',
             'sv': 'Rensa urval',
-            'pt': 'Anular a seleção',
+            'pt': 'Anular Seleção',
             'lux': 'Auswiel obhiewen'
         },
     'bar_glaciers_selected':
@@ -150,7 +150,7 @@ trads = {
             'ur': 'سالانہ درجہ حرارت اوسطاً اونچائی پر (ڈگری سنٹی گریڈ)',
             'sv': 'Temperatur, årsmedel, vid medelhöjd (°C)',
             'pt': 'Temperatura anual na altitude média (°C)',
-            'lux': 'Durschnettlech Temperatur ob mëtteler Heischd (°C)'
+            'lux': 'Joherestemperatur ob duerschnëttlecher Heischd (°C)'
         },
     'trend_plot_x':
         {
@@ -210,7 +210,7 @@ trads = {
             'ur': 'گلیشیئر کی اوسط بلندی (میٹر - سطح سمندر سے اوپر)',
             'sv': 'Glaciärens medelhöjd (m ö.h.)',
             'pt': 'Elevação média do glaciar (m a.n.m)',
-            'lux': 'Mëttel Héicht vum Gletscher (m i.d.M.)'
+            'lux': 'Duerschnëttlech Héicht vum Gletscher (m i.d.M.)'
         },
     'elev_plot_y':
         {
@@ -287,13 +287,13 @@ trads = {
             'pt': 'Escolha a região ao clicar e arrastar o rato '
                   'no map ou noutras figuras. <br><b>'
                   'Anule a sua seleção ao clicar no botão "Anular Seleção" à esquerda'
-                  '</b></br>. Para mais informação à cerca da aplicação e as fontes dos dados '
+                  '</b>. Para mais informação à cerca da aplicação e as fontes dos dados '
                   ', visite <a href="http://edu.oggm.org/en/latest/'
                   'explorer.html">edu.oggm.org</a>',
             'lux': 'Wiehl eng Regioun aus, andem du mad der Maus ob der Weltkaart oder'
                    ' and denen aneren Grafiken klickst and zittst <br><b>'
-                   'Setzt är Auswiel zréck andeems dir den "Auswiel obhiewen" Knäppchen '
-                   'ob der lénkser Seit dréckt </b>. Fir méi Informatiounen zu der App an den Datenquellen gid op'
+                   'Setzt deng Auswiel zréck andeems de den "Auswiel obhiewen" Knäppchen '
+                   'ob der lénkser Seit dréckt </b>. Méi Informatiounen zu der App an den Datenquellen fënns de op '
                    '<a href="http://edu.oggm.org/en/latest/explorer.html">'
                    'edu.oggm.org</a>.'
 
