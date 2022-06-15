@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-supported_languages = ['en', 'de', 'fr', 'es', 'cn', 'fa', 'it', 'nl', 'ur', 'sv', 'pt', 'lux']
+supported_languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'sv', 'ca', 'pt', 'lux', 'cn', 'fa', 'ur']
+
 
 
 trads = {
@@ -30,6 +31,8 @@ trads = {
             'sv': 'Rensa urval',
             'pt': 'Anular Seleção',
             'lux': 'Auswiel obhiewen'
+            'ca': 'Canceŀlar la selecció',
+
         },
     'bar_glaciers_selected':
         {
@@ -45,6 +48,7 @@ trads = {
             'sv': 'Utvalda glaciärer: {} av {}',
             'pt': 'Glaciares selecionados: {} de {}',
             'lux': 'Ausgewiehlten Gletscher: {} vun {}'
+            'ca': 'Glaceres seleccionades: {} de {}',
         },
     'bar_area':
         {
@@ -60,7 +64,7 @@ trads = {
             'sv': 'Area',
             'pt': 'Área',
             'lux': 'Fläch'
-
+            'ca': 'Àrea',
         },
     'bar_volume':
         {
@@ -76,6 +80,7 @@ trads = {
             'sv': 'Volym',
             'pt': 'Volume',
             'lux': 'Volumen'
+            'ca': 'Volum',
         },
     'bar_sealevel_text':
         {
@@ -91,6 +96,7 @@ trads = {
             'sv': 'Potentiellt bidrag till havsnivåhöjning<br>: ',
             'pt': 'Nível do mar equivalente: ',
             'lux': 'Mieresspigel Equivalent: '
+            'ca': 'Increment del nivell del mar: <br>',
         },
     'bar_sealevel_y':
         {
@@ -106,6 +112,7 @@ trads = {
             'sv': 'Potentiellt bidrag till havsnivåhöjning i mm',
             'pt': 'Volume do nível do mar em mm',
             'lux': 'Volumen an mm Mieresspigel Equivalent'
+            'ca': 'Volum en increment del nivell del mar en mm',
         },
     'map_plot_x':
         {
@@ -121,6 +128,7 @@ trads = {
             'sv': 'Longitud',
             'pt': 'Longitude',
             'lux': 'Geographesch Längt'
+            'ca': 'Longitud',
         },
     'map_plot_y':
         {
@@ -136,6 +144,7 @@ trads = {
             'sv': 'Latitud',
             'pt': 'Latitude',
             'lux': 'Geographesch Breet'
+            'ca': 'Latitud',
         },
     'temp_plot_x':
         {
@@ -143,7 +152,7 @@ trads = {
             'de': 'Jahresdurchschnittstemperatur in mittlerer Höhe (°C)',
             'fr': "Temperature annuelle à l'altitude moyenne (°C)",
             'cn': '冰川平均高程处的年平均气温（°C）',
-            'es': 'Temperatura anual á altura promedio (°C)',
+            'es': 'Temperatura anual a altura promedio (°C)',
             'fa': '(میانگین دمای سالانه نسبت به ارتفاع (سانتیگراد',
             'it': "Temperatura media annua all'altitudine media (°C)",
             'nl': 'Gemiddelde jaartemperatuur <br> op de gemiddelde hoogte (°C)',
@@ -151,6 +160,7 @@ trads = {
             'sv': 'Temperatur, årsmedel, vid medelhöjd (°C)',
             'pt': 'Temperatura anual na altitude média (°C)',
             'lux': 'Joherestemperatur ob duerschnëttlecher Heischd (°C)'
+            'ca': 'Temperatura anual segons l\'altitud mitjana (ºC)',
         },
     'trend_plot_x':
         {
@@ -166,6 +176,7 @@ trads = {
             'sv': 'Temperaturtrend 1979-2018 (°C/decennium)',
             'pt': 'Tendência de temperatura 1979-2018 (°C/década) ',
             'lux': 'Temperatur Trend 1979-2018 (°C/Jorzéngt)'
+            'ca': 'Tendència de temperatura 1979-2018 (ºC/dècada)',
         },
     'trend_plot_y':
         {
@@ -181,6 +192,7 @@ trads = {
             'sv': 'Antal glaciärer',
             'pt': 'Número de glaciares',
             'lux': 'Unzuel vun Glestcheren'
+            'ca': 'Nombre de glaceres',
         },
     'precip_plot_x':
         {
@@ -195,7 +207,8 @@ trads = {
             'ur': 'سالانہ بارش (ملی میٹر فی سال)',
             'sv': 'Årsnederbörd (mm/år)',
             'pt': 'Precipitação anual (mm/ano)',
-            'lux': 'Alljährlechen Nidderschlag (mm/Joher)'
+            'lux': 'Alljährlechen Nidderschlag (mm/Joher)',
+            'ca': 'Precipitació anual (mm/any)',
         },
     'elev_plot_x':
         {
@@ -211,6 +224,7 @@ trads = {
             'sv': 'Glaciärens medelhöjd (m ö.h.)',
             'pt': 'Elevação média do glaciar (m a.n.m)',
             'lux': 'Duerschnëttlech Héicht vum Gletscher (m i.d.M.)'
+            'ca': 'Altitud mitjana de la glacera (m.s.n.m.)',
         },
     'elev_plot_y':
         {
@@ -226,6 +240,7 @@ trads = {
             'sv': 'Latitud',
             'pt': 'Latitude',
             'lux': 'Geographesch Breet'
+            'ca': 'Latitud',
         },
     'instructions':
         {
@@ -295,8 +310,13 @@ trads = {
                    'Setzt deng Auswiel zréck andeems de den "Auswiel obhiewen" Knäppchen '
                    'ob der lénkser Seit dréckt </b>. Méi Informatiounen zu der App an den Datenquellen fënns de op '
                    '<a href="http://edu.oggm.org/en/latest/explorer.html">'
-                   'edu.oggm.org</a>.'
-
+                   'edu.oggm.org</a>.',
+            'ca': 'Escolliu la vostra regió d\'interès fent clic i arrossegant '
+                  'el cursor sobre el mapa o sobre la resta de figures.<br><b>Inicialitzeu '
+                  'la vostra selecció fent clic al botó "Canceŀlar la selecció" situat a l\'esquerra '
+                  '</b>.<br>Per a més informació sobre l\'aplicació i procedència de les dades, '
+                  'visiteu <a href="http://edu.oggm.org/en/latest/'
+                  'explorer.html">edu.oggm.org</a>',          
         },
     'abbreviations':
         {
@@ -332,6 +352,9 @@ trads = {
             'lux': 'Oofkierzungen:<br>'
                    '"asl" (above sea level): ganzen Gletschervolumen deen iwert dem Mieresspigel léit .<br>'
                    '"bsl" (below sea level): ganzen Gletschervolumen deen ënnert dem Mieresspigel léit .'
+            'ca': 'Abreviacions:<br>'
+                  '"asl" (above sea level): volum glacial total que es troba sobre el nivell del mar.<br>'
+                  '"bsl" (below sea level): volum glacial total que es troba sota el nivell del mar (no flotant).',
     },
 
 }
