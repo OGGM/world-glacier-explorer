@@ -30,7 +30,7 @@ trads = {
             'ur': 'انتخاب کو مٹا دیں',
             'sv': 'Rensa urval',
             'pt': 'Anular Seleção',
-            'lux': 'Auswiel obhiewen'
+            'lux': 'Auswiel obhiewen',
             'ca': 'Canceŀlar la selecció',
 
         },
@@ -47,7 +47,7 @@ trads = {
             'ur': '{} منتخب گلیشیئرز : {} کے',
             'sv': 'Utvalda glaciärer: {} av {}',
             'pt': 'Glaciares selecionados: {} de {}',
-            'lux': 'Ausgewiehlten Gletscher: {} vun {}'
+            'lux': 'Ausgewiehlten Gletscher: {} vun {}',
             'ca': 'Glaceres seleccionades: {} de {}',
         },
     'bar_area':
@@ -63,7 +63,7 @@ trads = {
             'ur': 'رقبہ',
             'sv': 'Area',
             'pt': 'Área',
-            'lux': 'Fläch'
+            'lux': 'Fläch',
             'ca': 'Àrea',
         },
     'bar_volume':
@@ -79,7 +79,7 @@ trads = {
             'ur': 'حجم',
             'sv': 'Volym',
             'pt': 'Volume',
-            'lux': 'Volumen'
+            'lux': 'Volumen',
             'ca': 'Volum',
         },
     'bar_sealevel_text':
@@ -95,7 +95,7 @@ trads = {
             'ur': ' :سطح سمندر کے مساوی',
             'sv': 'Potentiellt bidrag till havsnivåhöjning<br>: ',
             'pt': 'Nível do mar equivalente: ',
-            'lux': 'Mieresspigel Equivalent: '
+            'lux': 'Mieresspigel Equivalent: ',
             'ca': 'Increment del nivell del mar: <br>',
         },
     'bar_sealevel_y':
@@ -111,7 +111,7 @@ trads = {
             'ur': 'حجم (سطح سمندر کے مساوی ملی میٹر)',
             'sv': 'Potentiellt bidrag till havsnivåhöjning i mm',
             'pt': 'Volume do nível do mar em mm',
-            'lux': 'Volumen an mm Mieresspigel Equivalent'
+            'lux': 'Volumen an mm Mieresspigel Equivalent',
             'ca': 'Volum en increment del nivell del mar en mm',
         },
     'map_plot_x':
@@ -127,7 +127,7 @@ trads = {
             'ur': 'طول البلد',
             'sv': 'Longitud',
             'pt': 'Longitude',
-            'lux': 'Geographesch Längt'
+            'lux': 'Geographesch Längt',
             'ca': 'Longitud',
         },
     'map_plot_y':
@@ -143,7 +143,7 @@ trads = {
             'ur': 'عرض البلد',
             'sv': 'Latitud',
             'pt': 'Latitude',
-            'lux': 'Geographesch Breet'
+            'lux': 'Geographesch Breet',
             'ca': 'Latitud',
         },
     'temp_plot_x':
@@ -159,7 +159,7 @@ trads = {
             'ur': 'سالانہ درجہ حرارت اوسطاً اونچائی پر (ڈگری سنٹی گریڈ)',
             'sv': 'Temperatur, årsmedel, vid medelhöjd (°C)',
             'pt': 'Temperatura anual na altitude média (°C)',
-            'lux': 'Joherestemperatur ob duerschnëttlecher Heischd (°C)'
+            'lux': 'Joherestemperatur ob duerschnëttlecher Heischd (°C)',
             'ca': 'Temperatura anual segons l\'altitud mitjana (ºC)',
         },
     'trend_plot_x':
@@ -175,7 +175,7 @@ trads = {
             'ur': 'درجہ حرارت کا رجحان ١٩٧٩ تا ٢٠١٨ (ڈگری سنٹی گریڈ فی دہائی)',
             'sv': 'Temperaturtrend 1979-2018 (°C/decennium)',
             'pt': 'Tendência de temperatura 1979-2018 (°C/década) ',
-            'lux': 'Temperatur Trend 1979-2018 (°C/Jorzéngt)'
+            'lux': 'Temperatur Trend 1979-2018 (°C/Jorzéngt)',
             'ca': 'Tendència de temperatura 1979-2018 (ºC/dècada)',
         },
     'trend_plot_y':
@@ -191,7 +191,7 @@ trads = {
             'ur': 'گلیشیئرز کی تعداد',
             'sv': 'Antal glaciärer',
             'pt': 'Número de glaciares',
-            'lux': 'Unzuel vun Glestcheren'
+            'lux': 'Unzuel vun Glestcheren',
             'ca': 'Nombre de glaceres',
         },
     'precip_plot_x':
@@ -223,7 +223,7 @@ trads = {
             'ur': 'گلیشیئر کی اوسط بلندی (میٹر - سطح سمندر سے اوپر)',
             'sv': 'Glaciärens medelhöjd (m ö.h.)',
             'pt': 'Elevação média do glaciar (m a.n.m)',
-            'lux': 'Duerschnëttlech Héicht vum Gletscher (m i.d.M.)'
+            'lux': 'Duerschnëttlech Héicht vum Gletscher (m i.d.M.)',
             'ca': 'Altitud mitjana de la glacera (m.s.n.m.)',
         },
     'elev_plot_y':
@@ -239,7 +239,7 @@ trads = {
             'ur': 'عرض البلد',
             'sv': 'Latitud',
             'pt': 'Latitude',
-            'lux': 'Geographesch Breet'
+            'lux': 'Geographesch Breet',
             'ca': 'Latitud',
         },
     'instructions':
@@ -351,7 +351,7 @@ trads = {
                   '"bsl" (below sea level): volume total de glaciares a baixo do nível do mar .',
             'lux': 'Oofkierzungen:<br>'
                    '"asl" (above sea level): ganzen Gletschervolumen deen iwert dem Mieresspigel léit .<br>'
-                   '"bsl" (below sea level): ganzen Gletschervolumen deen ënnert dem Mieresspigel léit .'
+                   '"bsl" (below sea level): ganzen Gletschervolumen deen ënnert dem Mieresspigel léit .',
             'ca': 'Abreviacions:<br>'
                   '"asl" (above sea level): volum glacial total que es troba sobre el nivell del mar.<br>'
                   '"bsl" (below sea level): volum glacial total que es troba sota el nivell del mar (no flotant).',
