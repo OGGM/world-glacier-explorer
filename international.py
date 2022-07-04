@@ -1,20 +1,19 @@
 # -*- coding: utf-8 -*-
 supported_languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'sv', 'ca', 'cn', 'fa', 'ur']
 
-
 trads = {
     'is_rtl': {
         # unicode languages cannot be used as selector
         # we still want to display them correctly
-        'fa' : True,
-        'ur' : True,
+        'fa': True,
+        'ur': True,
     },
     'lang_display': {
         # unicode languages cannot be used as selector
         # we still want to display them correctly
-        'fa' : 'فارسی',
-        'cn' : '汉语',
-        'ur' : 'اردو',
+        'fa': 'فارسی',
+        'cn': '汉语',
+        'ur': 'اردو',
     },
     'clear_button':
         {
@@ -137,7 +136,7 @@ trads = {
             'es': 'Temperatura anual a altura promedio (°C)',
             'fa': '(میانگین دمای سالانه نسبت به ارتفاع (سانتیگراد',
             'it': "Temperatura media annua all'altitudine media (°C)",
-            'nl': 'Gemiddelde jaartemperatuur <br> op de gemiddelde hoogte (°C)',
+            'nl': 'Gemiddelde jaartemperatuur op de gemiddelde hoogte (°C)',
             'ur': 'سالانہ درجہ حرارت اوسطاً اونچائی پر (ڈگری سنٹی گریڈ)',
             'sv': 'Temperatur, årsmedel, vid medelhöjd (°C)',
             'ca': 'Temperatura anual segons l\'altitud mitjana (ºC)',
@@ -150,7 +149,7 @@ trads = {
             'cn': '1979-2018年气温变化率（°C/10年）',
             'es': 'Tendencia de la temperatura 1979-2018 (°C/década)',
             'fa': 'روند تغییرات دما(سانتیگراد، دوره ده ساله) ۱۹۷۹-۲۰۱۸',
-            'it': 'Tendenza della temperatura 1979-2018 (°C/decade)',
+            'it': 'Tendenza della temperatura 1979-2018 (°C/decennio)',
             'nl': 'Temperatuurtrend 1979-2018 (°C/decennium)',
             'ur': 'درجہ حرارت کا رجحان ١٩٧٩ تا ٢٠١٨ (ڈگری سنٹی گریڈ فی دہائی)',
             'sv': 'Temperaturtrend 1979-2018 (°C/decennium)',
@@ -193,7 +192,7 @@ trads = {
             'es': 'Elevación media del Glaciar (m s.n.m.)',
             'fa': '(میانگین ارتفاع یخچال (متر',
             'it': 'Altitudine media del ghiacciaio (s.l.m.)',
-            'nl': 'Gemiddelde hoogte van de gletsjer <br> (m boven zeeniveau)',
+            'nl': 'Gemiddelde hoogte van de gletsjer (m boven zeeniveau)',
             'ur': 'گلیشیئر کی اوسط بلندی (میٹر - سطح سمندر سے اوپر)',
             'sv': 'Glaciärens medelhöjd (m ö.h.)',
             'ca': 'Altitud mitjana de la glacera (m.s.n.m.)',
@@ -262,7 +261,7 @@ trads = {
                   'explorer.html">edu.oggm.org</a>',
             'ur': 'نقشے میں یا دیگرتصویروں  میں ماؤس کو کلک اور ڈریگ کرکے اپنی دلچسپی کا علاقہ منتخب کریں۔ <br><b>'
                   'بائیں جانب موجود "انتخاب کو مٹا دیں" بٹن کے ساتھ اپنے انتخاب کو  دوبارہ ترتیب دیں </b>'
-                  'ایپ کے بارے میں مزید معلومات اور ہمارے ڈیٹا ذرائع کے لیے، ملاحظہ کریں' 
+                  'ایپ کے بارے میں مزید معلومات اور ہمارے ڈیٹا ذرائع کے لیے، ملاحظہ کریں'
                   '<br><a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>',
             'sv': 'Välj region genom att klicka och dra med musen i kartan eller i '
                   'någon av de andra figurerna.<br><b>Återställ urvalet med knappen '
@@ -274,7 +273,7 @@ trads = {
                   'la vostra selecció fent clic al botó "Canceŀlar la selecció" situat a l\'esquerra '
                   '</b>.<br>Per a més informació sobre l\'aplicació i procedència de les dades, '
                   'visiteu <a href="http://edu.oggm.org/en/latest/'
-                  'explorer.html">edu.oggm.org</a>',          
+                  'explorer.html">edu.oggm.org</a>',
         },
     'abbreviations':
         {
@@ -282,31 +281,36 @@ trads = {
                   '"asl" (above sea level): total glacier volume that is above sea level.<br>'
                   '"bsl" (below sea level): total glacier volume that is below sea level in the ocean (grounded).',
             'de': 'Abkürzungen:<br>'
-                  '"asl" (above sea level): diese Rubrik umfasst das Gletschervolumen, das sich oberhalb des Meeresspiegels befindet. <br>'
-                  '"bsl" (below sea level): diese Rubrik umfasst das Gletschervolumen, das sich unterhalb des Meerespiegels befindet, also bis auf den Meeresboden reicht.',
+                  '"asl" (above sea level): Gletschervolumen, das sich oberhalb des Meeresspiegels befindet. <br>'
+                  '"bsl" (below sea level): Gletschervolumen, das sich unterhalb des Meerespiegels befindet, '
+                  'also bis auf den Meeresboden reicht.',
             'fr': 'Abbréviations:<br>'
                   '"asl" (above sea level): volume total de glace se trouvant au dessus du niveau de la mer.<br>'
                   '"bsl" (below sea level): volume total de glace se trouvant en dessous du niveau de la mer.',
             'cn': '缩写:<br>'
                   '"asl" (above sea level): 海平面以上的冰川总体积。<br>'
                   '"bsl" (below sea level): 海洋中海平面以下(接地)的冰川总体积。',
-            'es': '"asl" (above sea level): volumen total del glaciar ubicado sobre el nivel del mar.<br>'
+            'es': 'Abreviaturas:<br>'
+                  '"asl" (above sea level): volumen total del glaciar ubicado sobre el nivel del mar.<br>'
                   '"bsl" (below sea level): volumen total del glaciar ubicado por debajo del nivel del mar.',
             'fa': '"asl" (above sea level):حجم کل یخچال های بالاتر از سطح دریا <br>'
                   '"bsl" (below sea level):حجم کل یخچال های پایین تر از سطح دریا/اقیانوس ها',
             'it': 'Abbreviazioni:<br>'
                   '"asl" (above sea level): volume totale del ghiacciaio che si trova sopra il livello del mare.<br>'
-                  '"bsl" (below sea level): volume totale del ghiacciaio che si trova sotto il livello del mare (incagliato).',
-            'nl': '"asl" (above sea level): totale gletsjer volume dat zich boven zeeniveau bevindt.<br>'
+                  '"bsl" (below sea level): volume totale del ghiacciaio che si trova sotto il livello del mare ('
+                  'incagliato).',
+            'nl': 'Afkortingen:<br>'
+                  '"asl" (above sea level): totale gletsjer volume dat zich boven zeeniveau bevindt.<br>'
                   '"bsl" (below sea level): totale gletsjer volume dat zich onder zeeniveau bevindt.',
             'ur': 'مخففات:<br>'
                   '"asl" (above sea level): گلیشیر کا کل حجم جو سطح سمندر سے اوپر ہے۔<br>'
                   '"bsl" (below sea level): گلیشیر کا کل حجم جو سمندر میں سطح سمندر سے نیچے ہے (زمین پر)۔',
-            'sv': '"asl" (above sea level) Total glaciärvolym som är över havsytan.<br>'
+            'sv': 'Förkortningar:<br>'
+                  '"asl" (above sea level) Total glaciärvolym som är över havsytan.<br>'
                   '"bsl" (below sea level) Total glaciärvolym som är under havsytan.',
             'ca': 'Abreviacions:<br>'
                   '"asl" (above sea level): volum glacial total que es troba sobre el nivell del mar.<br>'
                   '"bsl" (below sea level): volum glacial total que es troba sota el nivell del mar (no flotant).',
-    },
+        },
 
 }
