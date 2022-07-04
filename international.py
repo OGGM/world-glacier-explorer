@@ -1,20 +1,19 @@
 # -*- coding: utf-8 -*-
 supported_languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'sv', 'ca', 'cn', 'fa', 'ur']
 
-
 trads = {
     'is_rtl': {
         # unicode languages cannot be used as selector
         # we still want to display them correctly
-        'fa' : True,
-        'ur' : True,
+        'fa': True,
+        'ur': True,
     },
     'lang_display': {
         # unicode languages cannot be used as selector
         # we still want to display them correctly
-        'fa' : 'فارسی',
-        'cn' : '汉语',
-        'ur' : 'اردو',
+        'fa': 'فارسی',
+        'cn': '汉语',
+        'ur': 'اردو',
     },
     'clear_button':
         {
@@ -262,7 +261,7 @@ trads = {
                   'explorer.html">edu.oggm.org</a>',
             'ur': 'نقشے میں یا دیگرتصویروں  میں ماؤس کو کلک اور ڈریگ کرکے اپنی دلچسپی کا علاقہ منتخب کریں۔ <br><b>'
                   'بائیں جانب موجود "انتخاب کو مٹا دیں" بٹن کے ساتھ اپنے انتخاب کو  دوبارہ ترتیب دیں </b>'
-                  'ایپ کے بارے میں مزید معلومات اور ہمارے ڈیٹا ذرائع کے لیے، ملاحظہ کریں' 
+                  'ایپ کے بارے میں مزید معلومات اور ہمارے ڈیٹا ذرائع کے لیے، ملاحظہ کریں'
                   '<br><a href="http://edu.oggm.org/en/latest/explorer.html">edu.oggm.org</a>',
             'sv': 'Välj region genom att klicka och dra med musen i kartan eller i '
                   'någon av de andra figurerna.<br><b>Återställ urvalet med knappen '
@@ -274,7 +273,7 @@ trads = {
                   'la vostra selecció fent clic al botó "Canceŀlar la selecció" situat a l\'esquerra '
                   '</b>.<br>Per a més informació sobre l\'aplicació i procedència de les dades, '
                   'visiteu <a href="http://edu.oggm.org/en/latest/'
-                  'explorer.html">edu.oggm.org</a>',          
+                  'explorer.html">edu.oggm.org</a>',
         },
     'abbreviations':
         {
@@ -282,8 +281,8 @@ trads = {
                   '"asl" (above sea level): total glacier volume that is above sea level.<br>'
                   '"bsl" (below sea level): total glacier volume that is below sea level in the ocean (grounded).',
             'de': 'Abkürzungen:<br>'
-                  '"asl" (above sea level): diese Rubrik umfasst das Gletschervolumen, das sich oberhalb des Meeresspiegels befindet. <br>'
-                  '"bsl" (below sea level): diese Rubrik umfasst das Gletschervolumen, das sich unterhalb des Meerespiegels befindet, also bis auf den Meeresboden reicht.',
+                  '"asl" (above sea level): Gletschervolumen, das sich oberhalb des Meeresspiegels befindet. <br>'
+                  '"bsl" (below sea level): Gletschervolumen, das sich unterhalb des Meerespiegels befindet, also bis auf den Meeresboden reicht.',
             'fr': 'Abbréviations:<br>'
                   '"asl" (above sea level): volume total de glace se trouvant au dessus du niveau de la mer.<br>'
                   '"bsl" (below sea level): volume total de glace se trouvant en dessous du niveau de la mer.',
@@ -307,6 +306,6 @@ trads = {
             'ca': 'Abreviacions:<br>'
                   '"asl" (above sea level): volum glacial total que es troba sobre el nivell del mar.<br>'
                   '"bsl" (below sea level): volum glacial total que es troba sota el nivell del mar (no flotant).',
-    },
+        },
 
 }
