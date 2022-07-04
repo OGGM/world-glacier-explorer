@@ -5,13 +5,13 @@ supported_languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'sv', 'ca', 'cn', 'fa
 trads = {
     'is_rtl': {
         # unicode languages cannot be used as selector
-        # we still want to diplay them correctly
+        # we still want to display them correctly
         'fa' : True,
         'ur' : True,
     },
     'lang_display': {
         # unicode languages cannot be used as selector
-        # we still want to diplay them correctly
+        # we still want to display them correctly
         'fa' : 'فارسی',
         'cn' : '汉语',
         'ur' : 'اردو',
