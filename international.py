@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-supported_languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'sv', 'ca', 'cn', 'fa', 'ur']
+supported_languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'sv', 'ca', 'pt', 'lux', 'cn', 'fa', 'ur']
+
 
 
 trads = {
@@ -28,7 +29,10 @@ trads = {
             'nl': 'Verwijder selectie',
             'ur': 'انتخاب کو مٹا دیں',
             'sv': 'Rensa urval',
+            'pt': 'Anular Seleção',
+            'lux': 'Auswiel obhiewen',
             'ca': 'Canceŀlar la selecció',
+
         },
     'bar_glaciers_selected':
         {
@@ -42,6 +46,8 @@ trads = {
             'nl': 'Geselecteerde gletsjers: {} van {}',
             'ur': '{} منتخب گلیشیئرز : {} کے',
             'sv': 'Utvalda glaciärer: {} av {}',
+            'pt': 'Glaciares selecionados: {} de {}',
+            'lux': 'Ausgewiehlten Gletscher: {} vun {}',
             'ca': 'Glaceres seleccionades: {} de {}',
         },
     'bar_area':
@@ -56,6 +62,8 @@ trads = {
             'nl': 'Oppervlakte',
             'ur': 'رقبہ',
             'sv': 'Area',
+            'pt': 'Área',
+            'lux': 'Fläch',
             'ca': 'Àrea',
         },
     'bar_volume':
@@ -70,6 +78,8 @@ trads = {
             'nl': 'Volume',
             'ur': 'حجم',
             'sv': 'Volym',
+            'pt': 'Volume',
+            'lux': 'Volumen',
             'ca': 'Volum',
         },
     'bar_sealevel_text':
@@ -84,6 +94,8 @@ trads = {
             'nl': 'Potentiële bijdrage aan de zeespiegelstijging: <br>',
             'ur': ' :سطح سمندر کے مساوی',
             'sv': 'Potentiellt bidrag till havsnivåhöjning<br>: ',
+            'pt': 'Nível do mar equivalente: ',
+            'lux': 'Mieresspigel Equivalent: ',
             'ca': 'Increment del nivell del mar: <br>',
         },
     'bar_sealevel_y':
@@ -98,6 +110,8 @@ trads = {
             'nl': 'Potentiële bijdrage aan de zeespiegelstijging in mm',
             'ur': 'حجم (سطح سمندر کے مساوی ملی میٹر)',
             'sv': 'Potentiellt bidrag till havsnivåhöjning i mm',
+            'pt': 'Volume do nível do mar em mm',
+            'lux': 'Volumen an mm Mieresspigel Equivalent',
             'ca': 'Volum en increment del nivell del mar en mm',
         },
     'map_plot_x':
@@ -112,6 +126,8 @@ trads = {
             'nl': 'Lengtegraad',
             'ur': 'طول البلد',
             'sv': 'Longitud',
+            'pt': 'Longitude',
+            'lux': 'Geographesch Längt',
             'ca': 'Longitud',
         },
     'map_plot_y':
@@ -126,6 +142,8 @@ trads = {
             'nl': 'Breedtegraad',
             'ur': 'عرض البلد',
             'sv': 'Latitud',
+            'pt': 'Latitude',
+            'lux': 'Geographesch Breet',
             'ca': 'Latitud',
         },
     'temp_plot_x':
@@ -140,6 +158,8 @@ trads = {
             'nl': 'Gemiddelde jaartemperatuur <br> op de gemiddelde hoogte (°C)',
             'ur': 'سالانہ درجہ حرارت اوسطاً اونچائی پر (ڈگری سنٹی گریڈ)',
             'sv': 'Temperatur, årsmedel, vid medelhöjd (°C)',
+            'pt': 'Temperatura anual na altitude média (°C)',
+            'lux': 'Joherestemperatur ob duerschnëttlecher Heischd (°C)',
             'ca': 'Temperatura anual segons l\'altitud mitjana (ºC)',
         },
     'trend_plot_x':
@@ -154,6 +174,8 @@ trads = {
             'nl': 'Temperatuurtrend 1979-2018 (°C/decennium)',
             'ur': 'درجہ حرارت کا رجحان ١٩٧٩ تا ٢٠١٨ (ڈگری سنٹی گریڈ فی دہائی)',
             'sv': 'Temperaturtrend 1979-2018 (°C/decennium)',
+            'pt': 'Tendência de temperatura 1979-2018 (°C/década) ',
+            'lux': 'Temperatur Trend 1979-2018 (°C/Jorzéngt)',
             'ca': 'Tendència de temperatura 1979-2018 (ºC/dècada)',
         },
     'trend_plot_y':
@@ -168,6 +190,8 @@ trads = {
             'nl': 'Aantal gletsjers',
             'ur': 'گلیشیئرز کی تعداد',
             'sv': 'Antal glaciärer',
+            'pt': 'Número de glaciares',
+            'lux': 'Unzuel vun Glestcheren',
             'ca': 'Nombre de glaceres',
         },
     'precip_plot_x':
@@ -182,6 +206,8 @@ trads = {
             'nl': 'Jaarlijkse neerslag (mm/jaar)',
             'ur': 'سالانہ بارش (ملی میٹر فی سال)',
             'sv': 'Årsnederbörd (mm/år)',
+            'pt': 'Precipitação anual (mm/ano)',
+            'lux': 'Alljährlechen Nidderschlag (mm/Joher)',
             'ca': 'Precipitació anual (mm/any)',
         },
     'elev_plot_x':
@@ -196,6 +222,8 @@ trads = {
             'nl': 'Gemiddelde hoogte van de gletsjer <br> (m boven zeeniveau)',
             'ur': 'گلیشیئر کی اوسط بلندی (میٹر - سطح سمندر سے اوپر)',
             'sv': 'Glaciärens medelhöjd (m ö.h.)',
+            'pt': 'Elevação média do glaciar (m a.n.m)',
+            'lux': 'Duerschnëttlech Héicht vum Gletscher (m i.d.M.)',
             'ca': 'Altitud mitjana de la glacera (m.s.n.m.)',
         },
     'elev_plot_y':
@@ -210,6 +238,8 @@ trads = {
             'nl': 'Breedtegraad',
             'ur': 'عرض البلد',
             'sv': 'Latitud',
+            'pt': 'Latitude',
+            'lux': 'Geographesch Breet',
             'ca': 'Latitud',
         },
     'instructions':
@@ -269,6 +299,18 @@ trads = {
                   '"Rensa urval" till vänster.</b><br>För mer information om appen '
                   'och vår data, besök <a href="http://edu.oggm.org/en/latest/'
                   'explorer.html">edu.oggm.org</a>',
+            'pt': 'Escolha a região ao clicar e arrastar o rato '
+                  'no map ou noutras figuras. <br><b>'
+                  'Anule a sua seleção ao clicar no botão "Anular Seleção" à esquerda'
+                  '</b>. Para mais informação à cerca da aplicação e as fontes dos dados '
+                  ', visite <a href="http://edu.oggm.org/en/latest/'
+                  'explorer.html">edu.oggm.org</a>',
+            'lux': 'Wiehl eng Regioun aus, andem du mad der Maus ob der Weltkaart oder'
+                   ' and denen aneren Grafiken klickst and zittst <br><b>'
+                   'Setzt deng Auswiel zréck andeems de den "Auswiel obhiewen" Knäppchen '
+                   'ob der lénkser Seit dréckt </b>. Méi Informatiounen zu der App an den Datenquellen fënns de op '
+                   '<a href="http://edu.oggm.org/en/latest/explorer.html">'
+                   'edu.oggm.org</a>.',
             'ca': 'Escolliu la vostra regió d\'interès fent clic i arrossegant '
                   'el cursor sobre el mapa o sobre la resta de figures.<br><b>Inicialitzeu '
                   'la vostra selecció fent clic al botó "Canceŀlar la selecció" situat a l\'esquerra '
@@ -304,6 +346,12 @@ trads = {
                   '"bsl" (below sea level): گلیشیر کا کل حجم جو سمندر میں سطح سمندر سے نیچے ہے (زمین پر)۔',
             'sv': '"asl" (above sea level) Total glaciärvolym som är över havsytan.<br>'
                   '"bsl" (below sea level) Total glaciärvolym som är under havsytan.',
+            'pt': 'Abreviaturas:<br>'
+                  '"asl" (above sea level): volume total de glaciares acima do nível do mar .<br>'
+                  '"bsl" (below sea level): volume total de glaciares a baixo do nível do mar .',
+            'lux': 'Oofkierzungen:<br>'
+                   '"asl" (above sea level): ganzen Gletschervolumen deen iwert dem Mieresspigel léit .<br>'
+                   '"bsl" (below sea level): ganzen Gletschervolumen deen ënnert dem Mieresspigel léit .',
             'ca': 'Abreviacions:<br>'
                   '"asl" (above sea level): volum glacial total que es troba sobre el nivell del mar.<br>'
                   '"bsl" (below sea level): volum glacial total que es troba sota el nivell del mar (no flotant).',
