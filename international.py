@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-supported_languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'sv', 'ca', 'pt', 'lux', 'cn', 'fa', 'ur']
+supported_languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'sv', 'ca', 'pt', 'lux', 'cn', 'fa',
+                       'ur', 'hi']
 
 
 trads = {
@@ -15,6 +16,7 @@ trads = {
         'fa': 'فارسی',
         'cn': '汉语',
         'ur': 'اردو',
+        'hi': 'हिन्दी',
     },
     'clear_button':
         {
@@ -31,7 +33,7 @@ trads = {
             'pt': 'Anular Seleção',
             'lux': 'Auswiel obhiewen',
             'ca': 'Canceŀlar la selecció',
-
+            'hi': 'चयन साफ़ करें',
         },
     'bar_glaciers_selected':
         {
@@ -48,6 +50,7 @@ trads = {
             'pt': 'Glaciares selecionados: {} de {}',
             'lux': 'Ausgewiehlten Gletscher: {} vun {}',
             'ca': 'Glaceres seleccionades: {} de {}',
+            'hi': 'चयनित ग्लेशियर: {} मैं {}',
         },
     'bar_area':
         {
@@ -64,6 +67,7 @@ trads = {
             'pt': 'Área',
             'lux': 'Fläch',
             'ca': 'Àrea',
+            'hi': 'क्षेत्रफल',
         },
     'bar_volume':
         {
@@ -80,6 +84,7 @@ trads = {
             'pt': 'Volume',
             'lux': 'Volumen',
             'ca': 'Volum',
+            'hi': 'आयतन',
         },
     'bar_sealevel_text':
         {
@@ -96,6 +101,7 @@ trads = {
             'pt': 'Nível do mar equivalente: ',
             'lux': 'Mieresspigel Equivalent: ',
             'ca': 'Increment del nivell del mar: <br>',
+            'hi': 'समुद्र तल के समतुल्य: ',
         },
     'bar_sealevel_y':
         {
@@ -112,6 +118,7 @@ trads = {
             'pt': 'Volume do nível do mar em mm',
             'lux': 'Volumen an mm Mieresspigel Equivalent',
             'ca': 'Volum en increment del nivell del mar en mm',
+            'hi': 'समुद्र तल में आयतन मिलीमीटर में',
         },
     'map_plot_x':
         {
@@ -128,6 +135,7 @@ trads = {
             'pt': 'Longitude',
             'lux': 'Geographesch Längt',
             'ca': 'Longitud',
+            'hi': 'देशान्तर रेखा',
         },
     'map_plot_y':
         {
@@ -144,6 +152,7 @@ trads = {
             'pt': 'Latitude',
             'lux': 'Geographesch Breet',
             'ca': 'Latitud',
+            'hi': 'अक्षांश',
         },
     'temp_plot_x':
         {
@@ -160,6 +169,7 @@ trads = {
             'pt': 'Temperatura anual na altitude média (°C)',
             'lux': 'Joherestemperatur ob duerschnëttlecher Heischd (°C)',
             'ca': 'Temperatura anual segons l\'altitud mitjana (ºC)',
+            'hi': 'औसत ऊंचाई पर वार्षिक तापमान (डिग्री सेल्सियस)',
         },
     'trend_plot_x':
         {
@@ -176,6 +186,7 @@ trads = {
             'pt': 'Tendência de temperatura 1979-2018 (°C/década) ',
             'lux': 'Temperatur Trend 1979-2018 (°C/Jorzéngt)',
             'ca': 'Tendència de temperatura 1979-2018 (ºC/dècada)',
+            'hi': 'तापमान प्रवृत्ति 1979-2018 (डिग्री सेल्सियस/दशक)',
         },
     'trend_plot_y':
         {
@@ -192,6 +203,7 @@ trads = {
             'pt': 'Número de glaciares',
             'lux': 'Unzuel vun Glestcheren',
             'ca': 'Nombre de glaceres',
+            'hi': 'ग्लेशियरों की गिनती',
         },
     'precip_plot_x':
         {
@@ -208,6 +220,7 @@ trads = {
             'pt': 'Precipitação anual (mm/ano)',
             'lux': 'Alljährlechen Nidderschlag (mm/Joher)',
             'ca': 'Precipitació anual (mm/any)',
+            'hi': 'वार्षिक वर्षा (मिमी/वर्ष)',
         },
     'elev_plot_x':
         {
@@ -224,6 +237,7 @@ trads = {
             'pt': 'Elevação média do glaciar (m a.n.m)',
             'lux': 'Duerschnëttlech Héicht vum Gletscher (m i.d.M.)',
             'ca': 'Altitud mitjana de la glacera (m.s.n.m.)',
+            'hi': 'ग्लेशियर की औसत ऊंचाई (m a.s.l.)',
         },
     'elev_plot_y':
         {
@@ -240,6 +254,7 @@ trads = {
             'pt': 'Latitude',
             'lux': 'Geographesch Breet',
             'ca': 'Latitud',
+            'hi': 'अक्षांश',
         },
     'instructions':
         {
@@ -316,6 +331,10 @@ trads = {
                   '</b>.<br>Per a més informació sobre l\'aplicació i procedència de les dades, '
                   'visiteu <a href="http://edu.oggm.org/en/latest/'
                   'explorer.html">edu.oggm.org</a>',
+            'hi': 'मानचित्र में या अन्य आंकड़ों में माउस को क्लिक करके और खींचकर अपनी रुचि का क्षेत्र चुनें।' <br><b>बाईं '
+			'ओर "क्लियर सिलेक्शन" बटन के साथ अपना चयन रीसेट करें। </b>.<br> ऐप और हमारे डेटा स्रोतों के बारे में '
+			'अधिक जानकारी के लिए <a href="http://edu.oggm.org/en/latest/'
+                  'explorer.html">edu.oggm.org</a> पर जाएं',
         },
     'abbreviations':
         {
@@ -359,6 +378,9 @@ trads = {
             'ca': 'Abreviacions:<br>'
                   '"asl" (above sea level): volum glacial total que es troba sobre el nivell del mar.<br>'
                   '"bsl" (below sea level): volum glacial total que es troba sota el nivell del mar (no flotant).',
+            'hi': 'संक्षिप्ताक्षर: <br>'
+			'"asl" (above sea level):कुल ग्लेशियर आयतन जो समुद्र तल से ऊपर है <br>'
+			'"bsl" (below sea level): कुल ग्लेशियर आयतन जो समुद्र तल से नीचे है ।',
         },
 
 }
